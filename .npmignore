@@ -1,0 +1,11 @@
+node_modules
+misc
+build
+images
+references
+*.log
+bundle.map.json
+NOTES.md
+config.json
+exssh.sh
+TODO.md

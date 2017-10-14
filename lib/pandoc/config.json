@@ -1,0 +1,6 @@
+{
+    "pdf": ["-f", "markdown", "-t", "latex", "-V", "geometry:margin=1in", "-s", "-S", "--filter", "pandoc-eqnos", "-s", "-S", "--chapters",  "--number-offset", 0, "--number-sections", "--table-of-contents", "--biblio", "./references/My Library.bib", "--csl", "./pandoc/chicago-author-date.csl", "-o", "./build/thesis.pdf"],
+    "docx2": "-f markdown -t docx -s -S --filter pandoc-eqnos --biblio ./references/MyLibrary.bib --csl ./pandoc/chicago-author-date.csl  -o ./build/Precis.docx",
+    "docx": ["-f", "markdown", "-t", "docx", "-s", "-S", "--filter", "pandoc-eqnos", "--biblio", "./references/MyLibrary.bib", "--csl", "./pandoc/chicago-author-date.csl"],
+    "html": ["-f", "markdown", "-t", "html", "-s", "-S", "--filter", "pandoc-eqnos", "-s", "-S", "--chapters",  "--number-offset", 0, "--template", "./templates/template.html",  "--number-sections", "--table-of-contents", "--biblio", "./references/My Library.bib", "--csl", "./pandoc/chicago-author-date.csl", "-o", "./build/Precis.html"]
+}

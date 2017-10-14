@@ -1,13 +1,7 @@
-# Ignore everything
-*
-
 **/.DS_Store
 **.log
-
-# But not these files...
-!.gitignore
-!README.md
-!thesis/**/*
-!sim/**/*
-!confirmation/**/*
-!midCandidature/**/*
+node_modules
+db
+sim
+templates
+Dockerfile

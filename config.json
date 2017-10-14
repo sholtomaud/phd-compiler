@@ -1,0 +1,19 @@
+{
+  "dbDir":"./db",
+  "buildDir":"./build",
+  "sourcePath":"./tmp",
+  "pandocOptions":{
+    "bibliography": "~/references/MyLibrary.json",
+    "bibliographyStyle":"~/references/styles/chicago-fullnote-bibliography.csl",
+    "referenceDocx": "./templates/ieee.docx",
+    "pandocFilters":[
+      "pandoc-tablenos",
+      "pandoc-citeproc",
+      "pandoc-fignos",
+      "pandoc-eqnos"
+    ],
+    "tableOfContents": true,
+    "tocDepth": 3,
+    "highlightStyle": "haddock "
+  }
+}
