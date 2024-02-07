@@ -44,7 +44,7 @@
         "fastn": "^2.8.0",
         "file-server": "^1.0.5",
         "fs-extra": "^4.0.2",
-        "google-auth-library": "^0.9.7",
+        "google-auth-library": "^9.6.3",
         "googleapis": "^20.1.0",
         "jsdom": "^11.1.0",
         "kgo": "^4.0.3",
